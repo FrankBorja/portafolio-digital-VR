@@ -17,7 +17,7 @@ window.addEventListener('load', () => {
 			evento.target.classList.add('activo');
 
 			const categoria = evento.target.innerHTML.toLowerCase();
-			categoria === 'todos' ? grid.filter('[data-categoria]') : grid.filter(`[data-categoria="${categoria}"]`);
+			categoria === 'todas' ? grid.filter('[data-categoria]') : grid.filter(`[data-categoria="${categoria}"]`);
 		});
 	});
 
