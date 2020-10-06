@@ -4,9 +4,6 @@ const peliculas = document.querySelectorAll('.pelicula');
 const fila2  = document.querySelector('.contenedor-principal');
 const FichasDeber = document.querySelectorAll('.Contenido');
 
-const fila3  = document.querySelector('.contenedor-principal');
-const FichasDeber = document.querySelectorAll('.Contenido');
-
 const flechaIzquierda = document.getElementById('flecha-izquierda');
 const flechaDerecha = document.getElementById('flecha-derecha');
 
