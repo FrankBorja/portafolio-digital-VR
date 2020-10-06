@@ -1,4 +1,4 @@
-const fila = document.querySelector('.contenedor-carousel');
+const fila1 = document.querySelector('.contenedor-carousel');
 const peliculas = document.querySelectorAll('.pelicula');
 
 const fila2  = document.querySelector('.contenedor-principal');
@@ -58,7 +58,7 @@ peliculas.forEach((pelicula) => {
 	});
 });
 
-fila.addEventListener('mouseleave', () => {
+fila1.addEventListener('mouseleave', () => {
 	peliculas.forEach(pelicula => pelicula.classList.remove('hover'));
 });
 
@@ -70,10 +70,10 @@ FichasDeber.forEach((Contenido) => {
 		setTimeout(() => {
 			FichasDeber.forEach(Contenido => Contenido.classList.remove('hover'));
 			elemento.classList.add('hover');
-		}, 250);
+		}, 150);
 	});
 });
 
 fila2.addEventListener('mouseleave', () => {
-	FichasDeber.forEach(Contenido => Contenido.classList.remove('hover'));
+	FichasDeber.forEach(pelicula => pelicula.classList.remove('hover'));
 });
