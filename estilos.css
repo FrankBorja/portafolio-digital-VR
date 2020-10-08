@@ -190,9 +190,9 @@ footer .redes-sociales a {
 	transition: .3s ease all;
 }
 
-footer .redes-sociales .twitter {background: #1da1f2;}
-footer .redes-sociales .facebook {background: #3b5998;}
-footer .redes-sociales .instagram {background: #c13584;}
+footer .redes-sociales .Facebook {background: #3d67c4;}
+footer .redes-sociales .Instagram {background: #ce34b4;}
+footer .redes-sociales .YouTube {background: #ff0909;}
 
 footer .redes-sociales a i {
 	font-size: 20px;
