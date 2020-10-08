@@ -9,7 +9,7 @@ const flechaDerecha = document.getElementById('flecha-derecha');
 
 // ? ----- ----- Event Listener para la flecha derecha. ----- -----
 flechaDerecha.addEventListener('click', () => {
-	fila.scrollLeft += fila.offsetWidth;
+	fila1.scrollLeft += fila1.offsetWidth;
 
 	const indicadorActivo = document.querySelector('.indicadores .activo');
 	if(indicadorActivo.nextSibling){
@@ -20,7 +20,7 @@ flechaDerecha.addEventListener('click', () => {
 
 // ? ----- ----- Event Listener para la flecha izquierda. ----- -----
 flechaIzquierda.addEventListener('click', () => {
-	fila.scrollLeft -= fila.offsetWidth;
+	fila1.scrollLeft -= fila1.offsetWidth;
 
 	const indicadorActivo = document.querySelector('.indicadores .activo');
 	if(indicadorActivo.previousSibling){
